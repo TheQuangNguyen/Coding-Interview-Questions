@@ -8,10 +8,15 @@ public class TwoSum {
 
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> lookupNums = new HashMap<>();
+        // Put every numbers in the nums array into a hash table where the keys are the numbers and the keys are the indices
         for (int i = 0; i < nums.length; i++) {
             lookupNums.put(nums[i], i);
         }
 
+        // Look through nums array again. For each number, calculate the complement needed to reach the target number.
+        // Then lookup that values in the hash table if it exists
+        // If yes, then check if the number is the same element since I cannot use the same element twice. If it is not then return the indices for both number
+        // If not, then move on the next number
         for (int i = 0; i < nums.length; i++) {
             int numberToLookFor = target - nums[i];
             if (lookupNums.containsKey(numberToLookFor)) {
