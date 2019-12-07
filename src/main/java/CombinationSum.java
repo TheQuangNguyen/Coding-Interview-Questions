@@ -48,4 +48,29 @@ public class CombinationSum {
 
     // Runtime: 5 ms, faster than 52.48% of Java online submissions
     // Memory Usage: 37.4 MB, less than 100.00% of Java online submissions
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    // Same as the one above except each number in candidates may only be used once in the combination and duplicates in candidates are allowed
+
+    // Input: candidates = [10,1,2,7,6,1,5], target = 8,
+    //  A solution set is:
+    //  [
+    //  [1, 7],
+    //  [1, 2, 5],
+    //  [2, 6],
+    //  [1, 1, 6]
+    //  ]
+
+    // Input: candidates = [2,5,2,1,2], target = 5,
+    //  A solution set is:
+    //  [
+    //  [1,2,2],
+    //  [5]
+    //  ]
+
+//    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+//
+//    }
 }
