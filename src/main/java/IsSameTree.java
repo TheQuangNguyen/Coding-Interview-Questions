@@ -55,5 +55,5 @@ public class IsSameTree {
     // Space complexity of this would be O(1) for heap and O(h) for stack where h is the height of the tree.
 
     // Runtime: 0 ms, faster than 100.00%
-    // Memory Usage: 34.4 MB, less than 100.00% 
+    // Memory Usage: 34.4 MB, less than 100.00%
 }
