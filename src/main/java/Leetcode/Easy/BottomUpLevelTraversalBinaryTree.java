@@ -1,9 +1,8 @@
-package Easy;
+package Leetcode.Easy;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Stack;
 
 public class BottomUpLevelTraversalBinaryTree {
     // Given a binary tree, return the bottom-up level order traversal of its nodes' values. (ie, from left to right, level by level from leaf to root).
