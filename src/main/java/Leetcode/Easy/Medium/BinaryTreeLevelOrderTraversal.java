@@ -31,12 +31,13 @@ public class BinaryTreeLevelOrderTraversal {
     }
 
     public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> answer = new ArrayList<>();
         if (root == null) {
             return new ArrayList<>();
         }
+
         Queue queue = new Queue(root);
         List<TreeNode> levelNodeList = new LinkedList<>();
-        List<List<Integer>> answer = new ArrayList<>();
 
         while (!queue.isEmpty()) {
             while (!queue.isEmpty()) {
