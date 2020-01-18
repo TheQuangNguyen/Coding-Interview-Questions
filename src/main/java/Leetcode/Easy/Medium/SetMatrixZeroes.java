@@ -47,5 +47,5 @@ public class SetMatrixZeroes {
     // Memory Usage: 47.8 MB, less than 44.28%
 
     // Time complexity is O(m x n)
-    // Space complexity is O(M x N) where M is the number of rows that contain zeroes and N is the number of columns that contain zeroes
+    // Space complexity is O(M + N) where M is the number of rows that contain zeroes and N is the number of columns that contain zeroes
 }
