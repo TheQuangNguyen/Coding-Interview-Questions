@@ -1,11 +1,17 @@
-import static CrackingTheCodingInterview.ArraysAndStrings.URLify.*;
+import CrackingTheCodingInterview.LinkedLists.Partition;
+
+import static CrackingTheCodingInterview.LinkedLists.Partition.*;
 
 public class Test {
 
-    public static void main(String[] args) {
-        char[] test = new char[]{'M', 'r', ' ', 'J', 'o', 'h', 'n', ' ', 'S', 'm', 'i', 't', 'h', ' ', ' ', ' ', ' '};
-        char[] result = urlify(test, 13);
+//    static class Node {
+//        int val;
+//        Node next;
+//
+//        public Node(int value) { val = value;};
+//    }
 
-        System.out.println(result);
+    public static void main(String[] args) {
+
     }
 }

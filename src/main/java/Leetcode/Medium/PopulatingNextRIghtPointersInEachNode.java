@@ -1,4 +1,4 @@
-package Leetcode.Easy.Medium;
+package Leetcode.Medium;
 
 public class PopulatingNextRIghtPointersInEachNode {
 
