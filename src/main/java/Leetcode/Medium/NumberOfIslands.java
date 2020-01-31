@@ -25,6 +25,6 @@ public class NumberOfIslands {
     //Output: 3
 
     public int numIslands(char[][] grid) {
-        
+
     }
 }
